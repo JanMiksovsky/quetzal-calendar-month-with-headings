@@ -1,0 +1,13 @@
+{
+  "name": "quetzal-calendar-month-with-headings",
+  "description": "Component for a month calendar with headings for month name, year, and days of week",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "quetzal-element": "JanMiksovsky/quetzal-element#master"
+  },
+  "ignore": [
+    "**/.*"
+  ]
+}

@@ -5,7 +5,10 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "quetzal-element": "JanMiksovsky/quetzal-element#master"
+    "quetzal-calendar-month": "JanMiksovsky/quetzal-calendar-month#master",
+    "quetzal-days-of-week": "JanMiksovsky/quetzal-days-of-week#master",
+    "quetzal-element": "JanMiksovsky/quetzal-element#master",
+    "quetzal-month-and-year": "JanMiksovsky/quetzal-month-and-year#master"
   },
   "ignore": [
     "**/.*"

@@ -7,7 +7,7 @@ A month calendar with headings for month name, year, and days of week.
 <link rel="import" href="../quetzal-days-of-week/quetzal-days-of-week.html">
 <link rel="import" href="../quetzal-calendar-month/quetzal-calendar-month.html">
 
-<polymer-element name="quetzal-calendar-month-with-headings" extends="quetzal-element" attributes="culture date daysOfWeekFormat">
+<polymer-element name="quetzal-calendar-month-with-headings" extends="quetzal-element" attributes="culture date dayElementTag daysOfWeekFormat">
 
 <template>
 
@@ -49,7 +49,7 @@ A month calendar with headings for month name, year, and days of week.
   <quetzal-month-and-year id="monthAndYear"></quetzal-month-and-year>
   <div id="monthTable">
     <quetzal-days-of-week id="daysOfWeek" format="{{daysOfWeekFormat}}"></quetzal-days-of-week>
-    <quetzal-calendar-month id="calendar"></quetzal-calendar-month>
+    <quetzal-calendar-month id="calendar" dayElementTag="{{dayElementTag}}"></quetzal-calendar-month>
   </div>
 
 </template>
